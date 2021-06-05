@@ -1,0 +1,56 @@
+{
+    "Intents": [
+        {
+            "Tag":"Complaint Status",
+            "patterns":[
+                "Status of my complaint",
+                "What about my complaint",
+                "Status",
+                "I filed a complaint",
+            ],
+            "responses":[
+                "You have no complaints",
+                "Just wait a minute sir",
+                "Complaint will be sorted in 2 days",
+            ]
+        },
+        {
+            "Tag":"New complaint",
+            "patterns":[
+                "I would like to file a new complaint",
+                "Water Problem",
+                "Electricity Problem"
+            ],
+            "responses":[
+                "Go to this section",
+                "Filing new complaint",
+                "Thanks for chosing our website",
+            ]
+        },
+        {
+            "Tag":"Greetings",
+            "patterns":[
+                "Hi",
+                "Hey"
+                ,"How are you"
+                ,"Is anyone there?"
+                ,"Hello"
+            ],
+            "responses":[
+                "Hello there,how can I help you?"
+                ,"Thanks hor visiting"
+                ,"Hey :D"
+            ]
+         },
+         {
+             "Tags":"Goodbye",
+             "patterns":["Thanks","Bye","Goodbye"],
+             "responses":[
+                 "Thankyou",
+                 "Have a nice day",
+                 "Thanks for chosing our service",
+             ]
+         }
+
+    ]
+}
